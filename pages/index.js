@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
 
 export default function Home() {
   useEffect( () => { 
@@ -19,11 +18,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="columns-3">
-        <Image className="w-full aspect-video" src="https://s3.ap-northeast-1.amazonaws.com/assets.zhangt.ai/images/cherry.webp" alt="" width="220" height="800"/>
+        <img className="w-full" src="https://s3.ap-northeast-1.amazonaws.com/assets.zhangt.ai/images/cherry.webp" alt="" />
         <div className='flex items-center'>
           TYING.US
         </div>
-        <Image className="w-full aspect-video" src="https://s3.ap-northeast-1.amazonaws.com/assets.zhangt.ai/images/cherry.webp" alt="" width="220" height="800"/>
+        <img className="w-full" src="https://s3.ap-northeast-1.amazonaws.com/assets.zhangt.ai/images/cherry.webp" alt="" />
         {/* <Image className="w-full aspect-square" src="..." alt="" /> */}
       </div>
     </div>
