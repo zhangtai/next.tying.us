@@ -22,7 +22,7 @@ export default function Home() {
         <div className='flex items-center'>
           TYING.US
         </div>
-        <img className="w-full" src="https://s3.ap-northeast-1.amazonaws.com/assets.zhangt.ai/images/cherry.webp" alt="" />
+        <img className="w-full scale-x-[-1]" src="https://s3.ap-northeast-1.amazonaws.com/assets.zhangt.ai/images/cherry.webp" alt="" />
         {/* <Image className="w-full aspect-square" src="..." alt="" /> */}
       </div>
     </div>
